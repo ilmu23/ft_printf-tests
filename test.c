@@ -6,7 +6,7 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 15:26:53 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/03 21:17:42 by ivalimak         ###   ########.fr       */
+/*   Updated: 2023/11/05 17:37:30 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,14 @@ int	main(void)
 	printf(".\t%d\n", ret);
 	ret = ft_printf(s);
 	printf(".\t%d\n\n", ret);
+
+	if (BONUS == 1)
+	{
+		ret = printf("%5%");
+		printf(".\t%d\n", ret);
+		ret = ft_printf("%5%");
+		printf(".\t%d\n\n", ret);
+	}
 
 	ctest('c');
 

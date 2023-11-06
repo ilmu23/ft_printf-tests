@@ -6,7 +6,7 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:07:48 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/03 21:15:02 by ivalimak         ###   ########.fr       */
+/*   Updated: 2023/11/05 18:34:49 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -131,5 +131,12 @@ void	stest(char *s)
 	ret = printf("%.s", "-");
 	printf(".\t%d\n", ret);
 	ret = ft_printf("%.s", "-");
+	printf(".\t%d\n\n", ret);
+
+	sleep(1);
+	printf("%%23s, s = NULL\n");
+	ret = printf("%23s", NULL);
+	printf(".\t%d\n", ret);
+	ret = ft_printf("%23s", NULL);
 	printf(".\t%d\n", ret);
 }

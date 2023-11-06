@@ -6,7 +6,7 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:07:27 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/03 21:06:52 by ivalimak         ###   ########.fr       */
+/*   Updated: 2023/11/05 18:44:47 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -112,4 +112,18 @@ void	dtest(int n)
 	printf(".\t%d\n", ret);
 	ret = ft_printf("%-.1d", n);
 	printf(".\t%d\n\n", ret);
+
+	sleep(1);
+	printf("%%-8.5d\n");
+	ret = printf("%-8.5d", n);
+	printf(".\t%d\n", ret);
+	ret = ft_printf("%-8.5d", n);
+	printf(".\t%d\n\n", ret);
+
+	sleep(1);
+	printf("%% 52.42d, n = 0\n");
+	ret = printf("% 52.42d", 0);
+	printf(".\t%d\n", ret);
+	ret = ft_printf("% 52.42d", 0);
+	printf(".\t%d\n", ret);
 }
