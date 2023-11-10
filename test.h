@@ -6,12 +6,14 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:08:49 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/03 21:18:12 by ivalimak         ###   ########.fr       */
+/*   Updated: 2023/11/10 12:08:29 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef TEST_H
 # define TEST_H
+# include <stddef.h>
+# include "ftprintf.h"
 
 void	ctest(char c);
 void	dtest(int n);

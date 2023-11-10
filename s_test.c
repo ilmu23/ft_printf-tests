@@ -6,11 +6,11 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:07:48 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/05 18:34:49 by ivalimak         ###   ########.fr       */
+/*   Updated: 2023/11/09 20:21:08 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ftprintf.h"
+#include "test.h"
 #include <stdio.h>
 
 void	stest(char *s)
@@ -138,5 +138,12 @@ void	stest(char *s)
 	ret = printf("%23s", NULL);
 	printf(".\t%d\n", ret);
 	ret = ft_printf("%23s", NULL);
+	printf(".\t%d\n\n", ret);
+
+	sleep(1);
+	printf("%%3.s, s = \"s_hidden\"\n");
+	ret = printf("%3.s", "s_hidden");
+	printf(".\t%d\n", ret);
+	ret = ft_printf("%3.s", "s_hidden");
 	printf(".\t%d\n", ret);
 }

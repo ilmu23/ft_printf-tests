@@ -6,11 +6,11 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 15:26:53 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/03 21:00:52 by ivalimak         ###   ########.fr       */
+/*   Updated: 2023/11/09 20:21:13 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ftprintf.h"
+#include "test.h"
 #include <stdio.h>
 
 void	ptest(void *p)

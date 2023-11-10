@@ -6,12 +6,11 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 15:26:53 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/05 17:37:30 by ivalimak         ###   ########.fr       */
+/*   Updated: 2023/11/10 17:51:05 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "test.h"
-#include "ftprintf.h"
 #include <stdio.h>
 
 int	main(void)

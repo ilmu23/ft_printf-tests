@@ -6,11 +6,11 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:07:35 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/03 20:58:42 by ivalimak         ###   ########.fr       */
+/*   Updated: 2023/11/09 20:20:16 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ftprintf.h"
+#include "test.h"
 #include <stdio.h>
 
 void	ctest(char c)
