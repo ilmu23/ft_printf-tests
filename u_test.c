@@ -6,12 +6,11 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:07:21 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/09 20:20:30 by ivalimak         ###   ########.fr       */
+/*   Updated: 2024/05/02 12:40:44 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "test.h"
-#include <stdio.h>
 
 void	utest(unsigned int n)
 {

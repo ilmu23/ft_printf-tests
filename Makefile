@@ -6,15 +6,13 @@
 #    By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/03 20:09:59 by ivalimak          #+#    #+#              #
-#    Updated: 2023/11/17 15:10:48 by ivalimak         ###   ########.fr        #
+#    Updated: 2024/05/02 12:43:38 by ivalimak         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	../tester
 
 CC		=	cc
-
-INCLUDE	=	-I .. -I ../inc -I ../libft
 
 PRINTF	=	../libftprintf.a
 

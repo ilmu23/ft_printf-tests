@@ -6,12 +6,11 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:07:27 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/10 15:48:56 by ivalimak         ###   ########.fr       */
+/*   Updated: 2024/05/02 12:40:08 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "test.h"
-#include <stdio.h>
 
 void	dtest(int n)
 {

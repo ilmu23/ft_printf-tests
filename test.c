@@ -6,19 +6,18 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 15:26:53 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/13 16:54:50 by ivalimak         ###   ########.fr       */
+/*   Updated: 2024/05/02 12:42:52 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "test.h"
-#include <stdio.h>
 
 int	main(void)
 {
 	int		ret;
 	char	*s;
 
-	s = ft_strdup("  test %");
+	s = strdup("  test %");
 
 	ret = printf(" %% ");
 	printf(".\t%d\n", ret);

@@ -6,15 +6,23 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:08:49 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/17 15:12:11 by ivalimak         ###   ########.fr       */
+/*   Updated: 2024/05/02 12:43:19 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef TEST_H
 # define TEST_H
-# include <stddef.h>
-# include "ftprintf.h"
-# include "ft_printf.h"
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+# include <limits.h>
+# include <unistd.h>
+
+# ifndef BONUS
+#  define BONUS 0
+# endif
+
+int		ft_printf(const char *f, ...);
 
 void	ctest(char c);
 void	dtest(int n);

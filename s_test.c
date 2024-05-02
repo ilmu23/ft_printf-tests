@@ -6,12 +6,11 @@
 /*   By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 20:07:48 by ivalimak          #+#    #+#             */
-/*   Updated: 2023/11/09 20:21:08 by ivalimak         ###   ########.fr       */
+/*   Updated: 2024/05/02 12:40:29 by ivalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "test.h"
-#include <stdio.h>
 
 void	stest(char *s)
 {
