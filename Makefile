@@ -6,7 +6,7 @@
 #    By: ivalimak <ivalimak@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/03 20:09:59 by ivalimak          #+#    #+#              #
-#    Updated: 2024/05/02 12:43:38 by ivalimak         ###   ########.fr        #
+#    Updated: 2025/05/12 16:01:19 by ivalimak         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,12 +28,12 @@ all: $(NAME)
 
 $(NAME): $(PRINTF) $(SRCS)
 	@echo Compiling...
-	@$(CC) -g -D BONUS=0 $(INCLUDE) $(SRCS) -L .. -lftprintf -o $(NAME) 2> /dev/null
+	@$(CC) -g -D BONUS=0 -Wno-format $(INCLUDE) $(SRCS) -L .. -lftprintf -o $(NAME)
 
 bonus: $(PRINTF) $(SRCS)
 	@make -C .. bonus --no-print-directory
 	@echo Compiling...
-	@$(CC) -g -D BONUS=1 $(INCLUDE) $(SRCS) -L .. -lftprintf -o $(NAME) 2> /dev/null
+	@$(CC) -g -D BONUS=1 -Wno-format $(INCLUDE) $(SRCS) -L .. -lftprintf -o $(NAME)
 
 $(PRINTF):
 	@make -C .. --no-print-directory
